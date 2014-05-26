@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Public: Install BBedit
 #         This does not include any license.
 #
