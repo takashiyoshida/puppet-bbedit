@@ -9,7 +9,7 @@ class bbedit (
 ){
   package { 'BBEdit':
     ensure   => 'installed',
-    source   => 'http://pine.barebones.com/files/BBEdit_${version}.dmg',
+    source   => "http://pine.barebones.com/files/BBEdit_${version}.dmg",
     provider => 'appdmg'
   }
 }
