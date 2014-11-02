@@ -6,7 +6,7 @@
 #   include bbedit
 class bbedit {
   package { 'BBEdit':
-    source   => 'http://pine.barebones.com/files/BBEdit_10.5.10.dmg',
+    source   => 'https://s3.amazonaws.com/BBSW-download/BBEdit_11.0.dmg',
     provider => 'appdmg'
   }
 }
