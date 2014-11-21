@@ -5,7 +5,7 @@
 #
 #   include bbedit
 class bbedit (
-  $version = '10.5.13',
+  $version = '11.0.1',
 ){
   package { 'BBEdit':
     ensure   => 'installed',
